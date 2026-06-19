@@ -5,5 +5,5 @@ fn main() {
 		eprintln('Failed to generate secure random bytes: ${err}')
 		return
 	}.hex()
-	println("Here's a random key for you:\n${random}")
+	println("Here's a random superkey for you:\n${random}")
 }
